@@ -53,16 +53,20 @@ header img {
 
 nav {
     text-decoration: none;
-    display: inline;
     float: right;
-    padding: 30px 20px 0px 0px;
+    margin-top: 30px;
+    padding: 0px 15px 0px 0px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 0px 15px 0px 15px;
-    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+}
+
+nav a:first-child {
+    padding-left: 0px
 }
 
 nav a:hover {
@@ -81,7 +85,7 @@ footer {
 .angie-image {
     display: inline;
     float: right;
-    margin-right: 150px;
+    margin-right: 50px;
     margin-top: 50px;
 }
 
@@ -122,22 +126,24 @@ footer {
 .main-content img {
     display: block;
     float: left;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
     height: 280px;
     border: 3px solid gray;
 }
 
 .you-are-here {
+    font-family: arial, sans-serif, serif;
     text-align: center;
     font-size: 30px;
 }
 
 .pointers {
     font-family: arial, sans-serif, serif;
+    font-weight: bold;
     font-size: 15px;
-    font-size: 20px;
-    margin-left: 15em;
+    margin-left: 17em;
+    margin-top: -25px;
     border: 2px solid gray;
 }
 
@@ -207,14 +213,59 @@ footer {
 }
 
 .wrapper {
-    height: 100%;
-    margin: 0px 120px 0px 120px;
+    width: 960px;
+    margin: 0 auto;
     background-color: rgb(224, 224, 224);
-    min-width: 85em;
 }
 
 .yelp-image {
     display: inline;
-    margin-left: 200px;
+    margin-left: 90px;
     margin-top: 50px;
+}
+
+/* CSS for the Services Page */
+
+.services-list {
+    font-family: arial, sans-serif, serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.services-list p {
+    margin-left: -30px;
+    margin-top: 15px
+}
+
+.services-list li {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.realtor-information {
+    font-family: arial, sans-serif, serif;
+}
+
+.realtor-information p {
+    font-size: 20px;
+}
+
+.realtor-information h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.safety-check {
+    font-family: arial, sans-serif, serif;
+}
+
+.safety-check p {
+    font-size: 20px;
+}
+
+.safety-check h2 {
+    text-align: center;
+    font-size: 24px;
 }
