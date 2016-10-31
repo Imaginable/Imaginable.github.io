@@ -292,3 +292,24 @@ input {
     text-align: center;
     font-size: 20px;
 }
+
+/* CSS for Service Area Page */
+
+.area-list h2 {
+    background: none;
+    color: black;
+    font-weight: 600;
+}
+
+.area-list h4 {
+    font-weight: 600;
+    display: inline;
+    color: #4d4d4d;
+}
+
+.area-code {
+    display: inline;
+    color: #5d5d5d;
+    margin-left: 10px;
+    word-spacing: 3px;
+}
