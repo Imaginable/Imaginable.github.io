@@ -218,6 +218,7 @@ footer {
     margin-top: 50px;
 }
 
+
 /* CSS for the Services Page */
 
 .services-list {
@@ -253,6 +254,7 @@ footer {
     text-align: center;
 }
 
+
 /* CSS for Contact Us Page */
 
 input {
@@ -264,9 +266,9 @@ input {
     width: 375px;
 }
 
-.name-form, 
-.email-form, 
-.phone-form, 
+.name-form,
+.email-form,
+.phone-form,
 .issue-input {
     padding-top: 15px;
 }
@@ -293,8 +295,13 @@ input {
     font-size: 20px;
 }
 
+
 /* CSS for Service Area Page */
 
-.tables {
-    
+table {
+    width: 90%;
+}
+
+td {
+    text-align: left;
 }
