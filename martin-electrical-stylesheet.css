@@ -20,7 +20,6 @@ video {
 
 body {
     background-color: white;
-    ;
     color: black;
 }
 
@@ -348,4 +347,9 @@ td {
     font-size: 20px;
     color: #FFF;
     background-color: rgba(50, 50, 50, 0.3);
+}
+
+#call-today {
+    font-size: 25px;
+    text-align: center;
 }
